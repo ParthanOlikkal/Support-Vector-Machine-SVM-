@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
 #Load Dataset
-url = "https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/cell_samples.csv"
+url = "https://raw.githubusercontent.com/ParthanOlikkal/Support-Vector-Machine-SVM-/master/cell_samples.csv"
 cell_df = pd.read_csv(url)
 cell_df.head()
 
